@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-const UserForm = () => {
+const Form = () => {
   const formRef = useRef(null);
 
   const handleSubmit = (e) => {
@@ -297,4 +297,4 @@ const UserForm = () => {
     </div>
   );
 };
-export default UserForm;
+export default Form;
